@@ -1,0 +1,14 @@
+.cell-list-item {
+	position: relative;
+	border-radius: 50px 20px;
+}
+
+.action-bar-wrapper {
+	height: 35px;
+	width: 100%;
+	background-color: #ffffff;
+	border-top: rgb(226, 226, 226) solid 1px;
+	border-left: rgb(226, 226, 226) solid 1px;
+	border-right: rgb(226, 226, 226) solid 1px;
+	border-bottom: rgb(226, 226, 226) dotted 1px;
+}
