@@ -1,0 +1,13 @@
+{
+	"hosting": {
+		"site": "scratch-10e02",
+		"public": "build",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		]
+	}
+}
