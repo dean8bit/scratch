@@ -4,7 +4,8 @@ services:
     image: node:16-alpine3.11
     container_name: scratch-dev
     ports:
-      - 3002:3000
+      - 3000:3000
+      - 9005:9005
     volumes:
       - ./:/home/node/app
     working_dir: /home/node/app
