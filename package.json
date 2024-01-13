@@ -38,7 +38,7 @@
 	},
 	"scripts": {
 		"start": "react-scripts --openssl-legacy-provider start",
-		"build": "GENERATE_SOURCEMAP=false react-scripts --openssl-legacy-provider build",
+		"build": "GENERATE_SOURCEMAP=false react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"deploy": "npx firebase login && npx firebase deploy --only hosting:scratch-10e02"
