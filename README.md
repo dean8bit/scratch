@@ -9,6 +9,6 @@ This project is a browser-based coding environment that uses;
 - Unpkg.com for fetching package contents.
 - Redux + Thunk for handling state.
 - ESBuild for quickly building user code and packages into a single index.js
-- Uses indexDB to preserve code and package downloads
+- Uses IndexedDB to preserve code and package downloads
 
 [Hosted here](https://purple-dune-0b7a56c10.3.azurestaticapps.net)
