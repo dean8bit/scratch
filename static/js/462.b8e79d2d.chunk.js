@@ -1,0 +1,1 @@
+(this.webpackJsonpscratch=this.webpackJsonpscratch||[]).push([[462],{578:function(a,s){!function(a){var s=a.util.clone(a.languages.typescript);a.languages.tsx=a.languages.extend("jsx",s);var t=a.languages.tsx.tag;t.pattern=RegExp(/(^|[^\w$]|(?=<\/))/.source+"(?:"+t.pattern.source+")",t.pattern.flags),t.lookbehind=!0}(Prism)}}]);
