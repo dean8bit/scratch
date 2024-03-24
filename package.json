@@ -1,6 +1,7 @@
 {
 	"name": "scratch",
 	"version": "0.1.0",
+	"homepage": "https://plato4.github.io/scratch",
 	"private": true,
 	"dependencies": {
 		"@emotion/react": "^11.8.2",
