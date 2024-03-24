@@ -38,10 +38,9 @@
 	},
 	"scripts": {
 		"start": "react-scripts --openssl-legacy-provider start",
-		"build": "GENERATE_SOURCEMAP=false react-scripts build",
+		"build": "GENERATE_SOURCEMAP=false NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"deploy": "npx firebase login && npx firebase deploy --only hosting:scratch-10e02"
+		"deploy" : "npm run build && gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -60,5 +59,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"gh-pages": "^6.1.1"
 	}
 }
