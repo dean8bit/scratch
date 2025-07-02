@@ -11,4 +11,4 @@ This project is a browser-based coding environment that uses;
 - ESBuild for quickly building user code and packages into a single index.js
 - Uses IndexedDB to preserve code and package downloads
 
-[Hosted here](https://plato4.github.io/scratch/)
+[Hosted here](https://dean8bit.github.io/scratch/)
